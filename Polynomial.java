@@ -27,6 +27,9 @@ public class Polynomial {
             result[i] = original_coef + newP_coef;
         }
         return new Polynomial(result);
+    }
 
+    public boolean hasRoot(double sol){
+        return evaluate(sol) == 0;
     }
 }
