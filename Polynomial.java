@@ -2,6 +2,7 @@ public class Polynomial {
     double [] coefficients;
 
     public Polynomial(){
+        // double[] coefficients = new double[1];
         coefficients = new double[1];
         coefficients[0] = 0;
     }
